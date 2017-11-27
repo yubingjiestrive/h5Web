@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/index.css">
+
+		<title></title>
+	</head>
+
+	<body>
+		<div class="navbar-fixed-top index-top" id="nav1" style="background-color: #F8F8F8">
+			<input type="text" placeholder="   请输入商品名称" class="index-sou">
+			<span class="login"> <a style="margin-left: 10px">搜索</a></span>
+		</div>
+		<div class="product">
+			<div class="product-left">
+				<ul class="level0">
+					<li></li>
+				</ul>
+			</div>
+			<div class="product-right">
+				<div class="level1">
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-default navbar-fixed-bottom">
+			<div class="">
+				<ul class="bottom">
+					<li class="col-1">
+						<a href="index.html">
+							<span class="glyphicon glyphicon-home"> <span class="bottom-list">首页</span></span>
+
+						</a>
+					</li>
+					<li class="col-2">
+						<a href="sort.html">
+							<span class="glyphicon glyphicon-th-large clicked"><span class="bottom-list clicked">分类</span></span>
+						</a>
+					</li>
+					<li class="col-3">
+						<a href="user.html">
+							<span class="glyphicon glyphicon-user"> <span class="bottom-list">我的</span></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script>
+			$(function() {
+				var arr = new Array();
+				var flag=null;
+				var htms = "";
+				$.ajax({
+					type: "GET",
+					dataType: "json",
+					url: "finish-2.json",
+					success: function(data) {
+						var json = eval(data);
+						var product = json.json;
+						for(var i = 0; i < product.length; i++) {
+							arr[i] = product[i].title;
+							console.log(arr[i]);
+						}
+						for(var i = 0; i < arr.length; i++) {
+							var htm = "<li>" + arr[i] + "</li>";
+							htms += htm;
+						}
+						$('.product-left ul').html(htms);
+						var level1s = "";
+						var level2s = "";
+						//页面第一次加载显示的数据
+						$(".level0 li").eq(0).addClass('active1').siblings().removeClass('active1');
+						for(var j = 0; j < product[0].sub.length; j++) {
+							console.log(product[0].sub.length);
+							var level1 = "<div class='level1'><div class='title' >" +
+									product[0].sub[j].title + "</div>";
+							console.log(product[0].sub[j].sub);
+							level2s="";
+							for(var n = 0; n < product[0].sub[j].sub.length; n++) {
+								var level2 = "<li> <img src='../image/icon_1.jpg'" +
+										" style='width: 0.47rem;height: 0.47rem'> <div>" + product[0].sub[j].sub[n].title
+										+ "</div></li>";
+								level2s += level2;
+							}
+							level1s += "<ul class='level2'>"+(level1+level2s)+'</ul></div>';
+						}
+						$('.product-right').html(level1s);
+                        //点击一级标题显示右边栏
+						$('.level0 li').click(function() {
+							$(".level0 li").eq($(this).index()).addClass('active1').siblings().removeClass('active1');
+							if(flag==$(this).index()){
+								//防止多次点击
+								return;
+							}
+							else{
+								level1s="";
+								var $_index = $(this).index();
+								for(var j = 0; j < product[$_index].sub.length; j++) {
+									console.log(product[$_index].sub.length);
+
+									var level1 = "<div class='level1'><div class='title' >" +
+											product[$_index].sub[j].title + "</div>";
+									console.log(product[$_index].sub[j].sub);
+									level2s="";//每次二级标题另一次循环的时候清除上一次三级标题，避免重复之前累计下来的字符串
+									for(var n = 0; n < product[$_index].sub[j].sub.length; n++) {
+										var level2 = "<li> <img src='../image/icon_1.jpg'" +
+												" style='width: 0.47rem;height: 0.47rem'> <div>" + product[$_index].sub[j].sub[n].title
+												+ "</div></li>";
+										level2s += level2;
+									}
+									level1s += "<ul class='level2'>"+(level1+level2s)+'</ul></div>';
+								}
+								$('.product-right').html(level1s);
+							}
+							flag=$_index;
+						})
+						//点击三级标题 显示对应详细信息
+						$('.product-right').click(function(){
+							window.location.href="../html/detail.html";
+						})
+//						$('.level2 li').click(function(){
+//							alert($(this).index())
+//						})
+					}
+
+
+
+				})
+			})
+		</script>
+	</body>
+
+</html>

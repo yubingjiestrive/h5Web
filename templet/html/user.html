@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/index.css">
+
+    <title></title>
+</head>
+<body style="background-color: #EAEAEA">
+<div class="navbar-fixed-top userTop">
+    <img src="../image/userTop.png" class="img-responsive">
+</div>
+<div class="header">
+    <img src="../image/user.png" class="img-responsive">
+    <div class="myOrder">
+        <div class="myOder-top myOrder-l">
+             <span>
+            我的订单
+        </span>
+         <span >
+            全部订单
+        </span>
+        </div>
+        <ul class="order">
+            <li>
+                <img src="../image/user_1.png">
+                <span>待付款</span>
+            </li>
+            <li>
+                <img src="../image/user_2.png">
+                <span>待收货</span>
+            </li>
+            <li>
+                <img src="../image/user_3.png" style="margin-top: -2px">
+                <span>待评价</span>
+            </li>
+            <li>
+                <img src="../image/user_4.png">
+                <span>退换货</span>
+            </li>
+            <li>
+                <img src="../image/user_5.png" style="margin-top: -7px">
+                <span>回收单</span>
+            </li>
+        </ul>
+    </div>
+    <div class="myServer">
+        <div class="myServer-top">
+             <span>
+            我的服务
+        </span>
+        </div>
+        <ul class="server1">
+            <li>
+                <img src="../image/user1_03.png">
+                <span>待付款</span>
+            </li>
+            <li>
+                <img src="../image/user1_05.png">
+                <span>待收货</span>
+            </li>
+            <li>
+                <img src="../image/user1_07.png" >
+                <span>待评价</span>
+            </li>
+            <li>
+                <img src="../image/user1_09.png">
+                <span>退换货</span>
+            </li>
+
+        </ul>
+        <ul class="server2">
+            <li>
+                <img src="../image/user1_15.png" >
+                <span>回收单</span>
+            </li>
+            <li>
+                <img src="../image/user1_16.png">
+                <span>待付款</span>
+            </li>
+        </ul>
+    </div>
+    <img src="../image/newUser.png" class="img-responsive newUser" style="margin: 10px 0">
+    <div class="myServer">
+        <div class="myServer-top">
+             <span>
+            我的服务
+        </span>
+        </div>
+        <ul class="server1">
+            <li>
+                <img src="../image/user1_03.png">
+                <span>待付款</span>
+            </li>
+            <li>
+                <img src="../image/user1_05.png">
+                <span>待收货</span>
+            </li>
+            <li>
+                <img src="../image/user1_07.png" >
+                <span>待评价</span>
+            </li>
+            <li>
+                <img src="../image/user1_09.png">
+                <span>退换货</span>
+            </li>
+
+        </ul>
+        <ul class="server2">
+            <li>
+            <img src="../image/user1_15.png" >
+            <span>回收单</span>
+        </li>
+            <li>
+                <img src="../image/user1_16.png">
+                <span>待付款</span>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="myOrder">
+        <div class="myOder-top">
+             <span>
+            我的消息
+        </span>
+        </div>
+        <ul class="order">
+            <li>
+                <img src="../image/user_1.png">
+                <span>待付款</span>
+            </li>
+            <li>
+                <img src="../image/user_2.png">
+                <span>待收货</span>
+            </li>
+            <li>
+                <img src="../image/user_3.png" style="margin-top: -5px">
+                <span>待评价</span>
+            </li>
+            <li>
+                <img src="../image/user_4.png">
+                <span>退换货</span>
+            </li>
+            <li>
+                <img src="../image/user_5.png" style="margin-top: -7px">
+                <span>回收单</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="">
+        <ul class="bottom">
+            <li class="col-1">
+                <a href="index.html">
+                    <span class="glyphicon glyphicon-home"> <span class="bottom-list">首页</span></span>
+
+                </a>
+            </li>
+            <li class="col-2">
+                <a href="sort.html">
+                    <span class="glyphicon glyphicon-th-large"><span class="bottom-list ">分类</span></span>
+
+                </a>
+            </li>
+            <li class="col-3">
+                <a href="user.html">
+                    <span class="glyphicon glyphicon-user clicked"> <span class="bottom-list ">我的</span></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<script src="../js/jquery-1.11.3.js"></script>
+
+<script src="../js/bootstrap.js"></script>
+<script>
+    $(function(){
+        //初始化img的width
+        $('.header img').eq(0).css('width',$(document.documentElement).width() + 'px');
+        $('.userTop img').css('width',$(document.documentElement).width() + 'px') ;
+        $('.newUser').css('width',$(document.documentElement).width() + 'px') ;
+        //窗口大小改变改变img的width
+        window.onresize=function() {
+            document.documentElement.style.fontSize =$(document.documentElement).width()/3.75 + 'px';
+            $('.header img').eq(0).css('width',$(document.documentElement).width() + 'px');
+            $('.userTop img').css('width',$(document.documentElement).width() + 'px') ;
+            $('.newUser').css('width',$(document.documentElement).width() + 'px') ;
+        }
+        //先让nav隐藏
+        $(".userTop").css('display','none');
+        //滚动时距离超过
+        $(window).scroll(function() {
+            var h = $(window).scrollTop();
+            var headtop = $('.userTop').height();
+
+            $('.userTop img').css('width',$(document.documentElement).width() + 'px');
+            if (h >= headtop) {
+                $('.userTop').fadeIn(600);
+            }
+            else {
+                $('.userTop').fadeOut(600);
+            }
+        })
+    })
+</script>
+</body>
+</html>

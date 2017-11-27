@@ -1,0 +1,880 @@
+{
+    "json": [{
+            "id": 647,
+            "level": 0,
+            "markNum": 0,
+            "pxNum": 0,
+            "sub": [{
+                    "id": 725,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 734,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "店员",
+                            "upid": 725
+                        },
+                        {
+                            "id": 742,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "理货员",
+                            "upid": 725
+                        },
+                        {
+                            "id": 730,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "店长",
+                            "upid": 725
+                        },
+                        {
+                            "id": 731,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "促销员",
+                            "upid": 725
+                        },
+                        {
+                            "id": 732,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "收银员",
+                            "upid": 725
+                        },
+                        {
+                            "id": 733,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "导购员",
+                            "upid": 725
+                        }
+                    ],
+                    "title": "超市零售",
+                    "upid": 647
+                },
+                {
+                    "id": 724,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 729,
+                            "level": 0,
+                            "markNum": 2,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "房产评估师",
+                            "upid": 724
+                        },
+                        {
+                            "id": 728,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "置业顾问",
+                            "upid": 724
+                        },
+                        {
+                            "id": 727,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "房产经纪人",
+                            "upid": 724
+                        }
+                    ],
+                    "title": "房产中介",
+                    "upid": 647
+                },
+                {
+                    "id": 726,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 736,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "网络销售",
+                            "upid": 726
+                        },
+                        {
+                            "id": 735,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "销售专员",
+                            "upid": 726
+                        },
+                        {
+                            "id": 737,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "区域销售",
+                            "upid": 726
+                        },
+                        {
+                            "id": 738,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "客服",
+                            "upid": 726
+                        },
+                        {
+                            "id": 739,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "保险",
+                            "upid": 726
+                        }
+                    ],
+                    "title": "其他销售",
+                    "upid": 647
+                }
+            ],
+            "title": "销售",
+            "upid": 0
+        },
+        {
+            "id": 645,
+            "level": 0,
+            "markNum": 0,
+            "pxNum": 0,
+            "sub": [{
+                    "id": 661,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 687,
+                            "level": 0,
+                            "markNum": 1,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "服务员",
+                            "upid": 661
+                        },
+                        {
+                            "id": 688,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "杂工",
+                            "upid": 661
+                        },
+                        {
+                            "id": 683,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "配菜",
+                            "upid": 661
+                        },
+                        {
+                            "id": 689,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "送餐员",
+                            "upid": 661
+                        },
+                        {
+                            "id": 684,
+                            "level": 0,
+                            "markNum": 2,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "厨师",
+                            "upid": 661
+                        },
+                        {
+                            "id": 690,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "传菜员",
+                            "upid": 661
+                        },
+                        {
+                            "id": 685,
+                            "level": 0,
+                            "markNum": 1,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "洗碗工",
+                            "upid": 661
+                        },
+                        {
+                            "id": 686,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "面点师",
+                            "upid": 661
+                        }
+                    ],
+                    "title": "餐饮",
+                    "upid": 645
+                },
+                {
+                    "id": 660,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 682,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "客房部经理",
+                            "upid": 660
+                        },
+                        {
+                            "id": 678,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "前台",
+                            "upid": 660
+                        },
+                        {
+                            "id": 679,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "楼层经理",
+                            "upid": 660
+                        },
+                        {
+                            "id": 680,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "迎宾",
+                            "upid": 660
+                        },
+                        {
+                            "id": 681,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "客房服务员",
+                            "upid": 660
+                        }
+                    ],
+                    "title": "酒店",
+                    "upid": 645
+                },
+                {
+                    "id": 663,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 705,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "美容店长",
+                            "upid": 663
+                        },
+                        {
+                            "id": 700,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "学徒",
+                            "upid": 663
+                        },
+                        {
+                            "id": 706,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "发型师",
+                            "upid": 663
+                        },
+                        {
+                            "id": 701,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "美容师",
+                            "upid": 663
+                        },
+                        {
+                            "id": 702,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "化妆师",
+                            "upid": 663
+                        },
+                        {
+                            "id": 703,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "美甲师",
+                            "upid": 663
+                        },
+                        {
+                            "id": 704,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "宠物美容",
+                            "upid": 663
+                        },
+                        {
+                            "id": 699,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "洗头工",
+                            "upid": 663
+                        }
+                    ],
+                    "title": "美容美发",
+                    "upid": 645
+                },
+                {
+                    "id": 665,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 709,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "娱乐厅服务员",
+                            "upid": 665
+                        },
+                        {
+                            "id": 710,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "酒吧服务员",
+                            "upid": 665
+                        }
+                    ],
+                    "title": "娱乐休闲",
+                    "upid": 645
+                },
+                {
+                    "id": 662,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 692,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "月嫂",
+                            "upid": 662
+                        },
+                        {
+                            "id": 695,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "护工",
+                            "upid": 662
+                        },
+                        {
+                            "id": 693,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "钟点工",
+                            "upid": 662
+                        },
+                        {
+                            "id": 696,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "育婴师",
+                            "upid": 662
+                        },
+                        {
+                            "id": 694,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "保安",
+                            "upid": 662
+                        },
+                        {
+                            "id": 697,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "送水工",
+                            "upid": 662
+                        },
+                        {
+                            "id": 698,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "保洁",
+                            "upid": 662
+                        },
+                        {
+                            "id": 691,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "保姆",
+                            "upid": 662
+                        }
+                    ],
+                    "title": "家政安保",
+                    "upid": 645
+                },
+                {
+                    "id": 666,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 711,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "针灸推拿",
+                            "upid": 666
+                        },
+                        {
+                            "id": 712,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "足疗按摩",
+                            "upid": 666
+                        },
+                        {
+                            "id": 713,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "搓澡工",
+                            "upid": 666
+                        }
+                    ],
+                    "title": "保健按摩",
+                    "upid": 645
+                },
+                {
+                    "id": 664,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 707,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "旅游顾问",
+                            "upid": 664
+                        },
+                        {
+                            "id": 708,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "导游",
+                            "upid": 664
+                        }
+                    ],
+                    "title": "旅游",
+                    "upid": 645
+                },
+                {
+                    "id": 658,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 671,
+                            "level": 0,
+                            "markNum": 2,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "二手评估师",
+                            "upid": 658
+                        },
+                        {
+                            "id": 672,
+                            "level": 0,
+                            "markNum": 2,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "修理工",
+                            "upid": 658
+                        },
+                        {
+                            "id": 673,
+                            "level": 0,
+                            "markNum": 2,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "司机",
+                            "upid": 658
+                        },
+                        {
+                            "id": 668,
+                            "level": 0,
+                            "markNum": 2,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "洗车工",
+                            "upid": 658
+                        },
+                        {
+                            "id": 669,
+                            "level": 0,
+                            "markNum": 2,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "停车管理员",
+                            "upid": 658
+                        },
+                        {
+                            "id": 670,
+                            "level": 0,
+                            "markNum": 2,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "加油站工作员",
+                            "upid": 658
+                        }
+                    ],
+                    "title": "汽车",
+                    "upid": 645
+                },
+                {
+                    "id": 659,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 676,
+                            "level": 0,
+                            "markNum": 1,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "仓库管理员",
+                            "upid": 659
+                        },
+                        {
+                            "id": 677,
+                            "level": 0,
+                            "markNum": 1,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "装卸工",
+                            "upid": 659
+                        },
+                        {
+                            "id": 674,
+                            "level": 0,
+                            "markNum": 1,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "调度员",
+                            "upid": 659
+                        },
+                        {
+                            "id": 675,
+                            "level": 0,
+                            "markNum": 1,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "快递员",
+                            "upid": 659
+                        }
+                    ],
+                    "title": "物流",
+                    "upid": 645
+                },
+                {
+                    "id": 667,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 716,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "游泳教练",
+                            "upid": 667
+                        },
+                        {
+                            "id": 714,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "健身教练",
+                            "upid": 667
+                        },
+                        {
+                            "id": 715,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "舞蹈老师",
+                            "upid": 667
+                        }
+                    ],
+                    "title": "运动健身",
+                    "upid": 645
+                }
+            ],
+            "title": "服务",
+            "upid": 0
+        },
+        {
+            "id": 646,
+            "level": 0,
+            "markNum": 0,
+            "pxNum": 0,
+            "sub": [{
+                    "id": 719,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                            "id": 721,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "普工",
+                            "upid": 719
+                        },
+                        {
+                            "id": 722,
+                            "level": 0,
+                            "markNum": 0,
+                            "pxNum": 0,
+                            "sub": [],
+                            "title": "技工",
+                            "upid": 719
+                        }
+                    ],
+                    "title": "生产",
+                    "upid": 646
+                },
+                {
+                    "id": 718,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [{
+                        "id": 723,
+                        "level": 0,
+                        "markNum": 0,
+                        "pxNum": 0,
+                        "sub": [],
+                        "title": "平面设计",
+                        "upid": 718
+                    }],
+                    "title": "设计",
+                    "upid": 646
+                }
+            ],
+            "title": "技术",
+            "upid": 0
+        },
+        {
+            "id": 644,
+            "level": 0,
+            "markNum": 0,
+            "pxNum": 0,
+            "sub": [{
+                "id": 654,
+                "level": 0,
+                "markNum": 0,
+                "pxNum": 0,
+                "sub": [{
+                        "id": 657,
+                        "level": 0,
+                        "markNum": 0,
+                        "pxNum": 0,
+                        "sub": [],
+                        "title": "家教",
+                        "upid": 654
+                    },
+                    {
+                        "id": 656,
+                        "level": 0,
+                        "markNum": 0,
+                        "pxNum": 0,
+                        "sub": [],
+                        "title": "教师",
+                        "upid": 654
+                    },
+                    {
+                        "id": 655,
+                        "level": 0,
+                        "markNum": 0,
+                        "pxNum": 0,
+                        "sub": [],
+                        "title": "培训师",
+                        "upid": 654
+                    }
+                ],
+                "title": "教育培训",
+                "upid": 644
+            }],
+            "title": "教育",
+            "upid": 0
+        },
+        {
+            "id": 643,
+            "level": 0,
+            "markNum": 0,
+            "pxNum": 0,
+            "sub": [{
+                "id": 649,
+                "level": 0,
+                "markNum": 0,
+                "pxNum": 0,
+                "sub": [{
+                        "id": 650,
+                        "level": 0,
+                        "markNum": 0,
+                        "pxNum": 0,
+                        "sub": [],
+                        "title": "护士/护理",
+                        "upid": 649
+                    },
+                    {
+                        "id": 651,
+                        "level": 0,
+                        "markNum": 0,
+                        "pxNum": 0,
+                        "sub": [],
+                        "title": "宠物护理/兽医",
+                        "upid": 649
+                    },
+                    {
+                        "id": 653,
+                        "level": 0,
+                        "markNum": 0,
+                        "pxNum": 0,
+                        "sub": [],
+                        "title": "验光师",
+                        "upid": 649
+                    },
+                    {
+                        "id": 652,
+                        "level": 0,
+                        "markNum": 0,
+                        "pxNum": 0,
+                        "sub": [],
+                        "title": "医生",
+                        "upid": 649
+                    }
+                ],
+                "title": "医院护理",
+                "upid": 643
+            }],
+            "title": "医疗",
+            "upid": 0
+        },
+        {
+            "id": 648,
+            "level": 0,
+            "markNum": 0,
+            "pxNum": 0,
+            "sub": [{
+                "id": 740,
+                "level": 0,
+                "markNum": 0,
+                "pxNum": 0,
+                "sub": [{
+                    "id": 741,
+                    "level": 0,
+                    "markNum": 0,
+                    "pxNum": 0,
+                    "sub": [],
+                    "title": "文员",
+                    "upid": 740
+                }],
+                "title": "行政",
+                "upid": 648
+            }],
+            "title": "其他",
+            "upid": 0
+        }
+    ]
+}
